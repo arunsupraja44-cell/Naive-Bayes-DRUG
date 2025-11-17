@@ -28,3 +28,5 @@ input_data = pd.DataFrame([{
 if st.button("Predict Drug"):
     prediction = model.predict(input_data)[0]
     st.success(f"Recommended Drug: {prediction}")
+st.caption("Developed by Supraja ✨ | Powered by Streamlit & Scikit-learn")
+
